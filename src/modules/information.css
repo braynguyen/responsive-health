@@ -1,0 +1,113 @@
+/* Group 2218 */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+p {
+  margin: 0;
+}
+
+.group-2218 {
+  width: 1504px;
+  height: 688px;
+  padding: 33px 219px 168px 210px;
+  box-sizing: border-box;
+}
+.group-285 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+.our-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 40px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.88px;
+}
+
+.group-623 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.responsive-medicine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 46px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.01px;
+}
+
+.responsive-health {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 46px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.01px;
+}
+
+.group-824 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.subtract {
+  width: 441.47px;
+  height: 100%;
+}
+
+.subtract-1 {
+  width: 440.48px;
+  height: 100%;
+}
+
+.group-397 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.swag-swag-swag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+
+.swag-swag-swag-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.3px;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.title {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: black;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    border: black;
+}
