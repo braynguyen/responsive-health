@@ -4,6 +4,10 @@
     align-items: center;
     flex-direction: column;
     display: flex;
+    background-color: #BDE3FF;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .location {
@@ -11,12 +15,13 @@
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
-    border: black;
+    background-color: #193669;
 }
 
 .boxes {
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    padding: 10px 15px;
     border: black;
+    background-color: #BDE3FF;
 }
