@@ -2,11 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
+
+
 p {
   margin: 0;
 }
 
 .group-2218 {
+  background-color: #193669;
   width: 1504px;
   height: 688px;
   padding: 33px 219px 168px 210px;

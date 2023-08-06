@@ -10,9 +10,13 @@ export default function Header() {
         id="logo"
       />
       <p className="responsive-medicine">Responsive Medicine</p>
-      <button className="home">Home</button>
-      <button className="schedule">Schedule</button>
-      <button className="our-mission">Our Mission</button>
+      <div class='nav'>
+        <ul>
+          <li>Our Mission</li>
+          <li>Schedule</li>
+          <li>Home</li>
+        </ul>
+      </div>
     </div>
   )
 }
