@@ -1,20 +1,28 @@
-import React from "react";
+import * as React from "react";
 import "./header.css"
+import img from './responsive-logo.png'
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <div className="group-2215">
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/0b33xqzbsbuu-502%3A1182?alt=media&token=deeee525-998e-49fd-83a0-c94a258a79df"
+        src={img}
         alt="logo"
         id="logo"
       />
       <p id="responsive-medicine">Responsive Medicine</p>
       <div class='nav'>
         <ul>
-          <li>Our Mission</li>
-          <li>Schedule</li>
-          <li>Home</li>
+          <Link to="/Mission">
+            <li>Our Mission</li>
+          </Link>
+          <Link to="/Schedule">
+            <li>Schedule</li>
+          </Link>
+          <Link to="/" >
+            <li>Home</li>
+          </Link>
         </ul>
       </div>
     </div>

@@ -1,18 +1,19 @@
 // import './App.css';
 // import Appointment from './modules/Appointment';
-import Header from './modules/Header';
-import Information from './modules/Information';
-import Footer from './modules/Footer'
-import AboutUs from './modules/OurServices';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './modules/Home';
+import Schedule from './modules/Schedule';
+import Mission from './modules/Mission';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Information />
-      <AboutUs />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Schedule" element={<Schedule/>} />
+        <Route path="/Mission" element={<Mission/>} />
+      </Routes>
+    </Router>
   );
 }
 

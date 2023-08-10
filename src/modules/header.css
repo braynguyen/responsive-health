@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+/* .Link {
+  text-decoration: none;
+  color: rgba(4, 80, 161, 1);
+} */
+
 .nav {
   /* background-color: aqua; */
   height: 100%;
@@ -25,12 +30,12 @@
 
 .nav ul li {
   float: right;
-  color: rgba(4, 80, 161, 1);;
+  color: rgba(4, 80, 161, 1);
   height: 100%;
   line-height: 90px; 
   font-size: 22px;
   font-family: Inter, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   list-style: none;
   padding: 0 10px;
   transition: background .5s; 
@@ -43,9 +48,9 @@
 }
 
 #logo {
-  padding-left: 10px;
-  width: 90px;
-  height: 90px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
 }
 
 #responsive-medicine {
@@ -57,5 +62,5 @@
   font-family: Inter, sans-serif;
   font-weight: 500;
   letter-spacing: -0.91px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
