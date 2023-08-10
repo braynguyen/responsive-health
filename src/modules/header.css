@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+/* .Link {
+  text-decoration: none;
+  color: rgba(4, 80, 161, 1);
+} */
+
 .nav {
   /* background-color: aqua; */
   height: 100%;
@@ -25,7 +30,7 @@
 
 .nav ul li {
   float: right;
-  color: rgba(4, 80, 161, 1);;
+  color: rgba(4, 80, 161, 1);
   height: 100%;
   line-height: 90px; 
   font-size: 22px;
