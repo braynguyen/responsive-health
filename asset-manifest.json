@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/responsive-health/static/css/main.86f79001.css",
-    "main.js": "/responsive-health/static/js/main.c4cea39e.js",
+    "main.js": "/responsive-health/static/js/main.8ec55e08.js",
     "static/js/787.080ce130.chunk.js": "/responsive-health/static/js/787.080ce130.chunk.js",
     "index.html": "/responsive-health/index.html",
     "main.86f79001.css.map": "/responsive-health/static/css/main.86f79001.css.map",
-    "main.c4cea39e.js.map": "/responsive-health/static/js/main.c4cea39e.js.map",
+    "main.8ec55e08.js.map": "/responsive-health/static/js/main.8ec55e08.js.map",
     "787.080ce130.chunk.js.map": "/responsive-health/static/js/787.080ce130.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86f79001.css",
-    "static/js/main.c4cea39e.js"
+    "static/js/main.8ec55e08.js"
   ]
 }
