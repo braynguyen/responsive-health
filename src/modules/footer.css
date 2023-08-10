@@ -5,9 +5,10 @@
     flex-direction: column;
     display: flex;
     background-color: #BDE3FF;
+    color: #193669;
     padding: 20px;
     font-size: 25px;
-    font-weight: 500;;
+    font-weight: 500;
 }
 
 .location {

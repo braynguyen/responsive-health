@@ -19,7 +19,7 @@ p {
   align-items: center;
   box-sizing: border-box;
 }
-.our-services {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@ p {
   letter-spacing: -0.88px;
 }
 
-.group-623 {
+.subheaders {
   display: flex;
   flex-direction: row;
   width: fit-content;
@@ -68,16 +68,8 @@ p {
   display: flex;
   flex-direction: row;
   width: fit-content;
-  box-sizing: border-box;
-}
-.subtract {
-  width: 441.47px;
-  height: 100%;
-}
-
-.subtract-1 {
-  width: 440.48px;
-  height: 100%;
+  
+  ;
 }
 
 .group-397 {

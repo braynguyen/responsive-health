@@ -1,0 +1,17 @@
+.header {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: #193669;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.sectionInfo {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
