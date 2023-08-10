@@ -7,7 +7,7 @@
     background-color: #BDE3FF;
     padding: 20px;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 500;;
 }
 
 .location {
@@ -34,4 +34,9 @@
 .location-name {
     margin-bottom: 5px;
     font-size: 20px;
+}
+
+.phone-number {
+    text-align: center;
+    margin-top: 10px;
 }

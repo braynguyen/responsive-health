@@ -59,6 +59,11 @@ export default function Footer() {
                     <p>{NewCastle.phone}</p>
                 </div>
             </div>
+            <div className="phone-number">
+                <p>Give us a call at 302-992-8050 - For emergencies, call 911</p>
+                <p>Connect with us on Facebook</p>
+                <p>©2022 Responsive Medicine</p>
+            </div>
         </div>
     );
 }
