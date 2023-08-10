@@ -9,7 +9,7 @@ export default function Header() {
         alt="logo"
         id="logo"
       />
-      <p className="responsive-medicine">Responsive Medicine</p>
+      <p id="responsive-medicine">Responsive Medicine</p>
       <div class='nav'>
         <ul>
           <li>Our Mission</li>

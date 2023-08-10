@@ -14,8 +14,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: white;
     border-radius: 10px;
     background-color: #193669;
+    padding: 20px;
+    margin: 20px;
+    min-width: 170px;
 }
 
 .boxes {
@@ -24,4 +28,10 @@
     flex-direction: row;
     border: black;
     background-color: #BDE3FF;
+    margin: 0px auto;
+}
+
+.location-name {
+    margin-bottom: 5px;
+    font-size: 20px;
 }
