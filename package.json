@@ -1,7 +1,6 @@
 {
   "name": "responsive-health",
-  "version": "0.1.0",
-  "homepage": "https://braynguyen.github.io/responsive-health",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
