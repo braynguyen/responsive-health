@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #193669;
+}
+
+button {
+    margin: 10px;
+}
+
+input[type=text] {
+    height: 40px;
+    font-size: 20px;
+}
+
+input[type=date] {
+    
+}

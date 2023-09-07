@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './appointment.css';
 
 export default function Appointment() {
   const [profile, setProfile] = useState({});
@@ -18,6 +19,7 @@ export default function Appointment() {
 
   return (
     <form>
+      <h1>First Name</h1>
       <input
         value={profile.firstName || ''}
         name="firstName"
@@ -25,6 +27,7 @@ export default function Appointment() {
         placeholder="First Name"
         onChange={handleChange}
       />
+      <h1>Last Name</h1>
       <input
         value={profile.lastName || ''}
         type="text"
@@ -32,10 +35,11 @@ export default function Appointment() {
         placeholder="Last Name"
         onChange={handleChange}
       />
+      <h1>Date of Appointment</h1>
       <input
-        value={profile.bday || ''}
+        value={profile.date || ''}
         type="date"
-        name="bday"
+        name="date"
         onChange={handleChange}
       />
       <button type="submit" onClick={handleSubmit}>Submit</button>

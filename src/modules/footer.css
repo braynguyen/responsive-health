@@ -24,8 +24,10 @@
 }
 
 .boxes {
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     border: black;
     background-color: #BDE3FF;

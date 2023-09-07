@@ -14,7 +14,7 @@ export default function Information() {
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/96tr8mm1gfj-117%3A753?alt=media&token=05f0cfaa-7afd-4879-ab39-9bd70cfb2527"
             alt="Not Found"
-            className="ResponsiveMediceneImage"
+            className="ResponsiveMedicineImage"
           />
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/96tr8mm1gfj-502%3A1342?alt=media&token=788c5af7-b2fc-4652-89f0-d6a4660c8646"
