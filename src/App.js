@@ -7,7 +7,7 @@ import Mission from './modules/Mission';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/responsive-health">
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Schedule" element={<Schedule/>} />
