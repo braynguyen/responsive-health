@@ -19,7 +19,7 @@ export default function Appointment() {
 
   return (
     <form>
-      <h1>First Name</h1>
+      <h1 className="input-titles">First Name</h1>
       <input
         value={profile.firstName || ''}
         name="firstName"

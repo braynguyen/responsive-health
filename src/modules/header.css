@@ -10,22 +10,32 @@
   box-sizing: border-box;
 }
 
-/* .Link {
-  text-decoration: none;
-  color: rgba(4, 80, 161, 1);
+/* Media query for screens smaller than 768px */
+@media (max-width: 950px) {
+  .nav ul li {
+    line-height: 70px; 
+    font-size: 18px;
+    display: none;
+  }
+}
+
+/* Media query for screens smaller than 480px
+@media (max-width: 480px) {
+  
 } */
+
 
 .nav {
   /* background-color: aqua; */
   height: 100%;
-  width: 34%;
+  margin-left: auto;
+
 }
 
 .nav ul {
   height: 100%;
   list-style: none;
   margin: 0 auto; 
-  padding: 0;
 }
 
 .nav ul li {
@@ -54,13 +64,13 @@
 }
 
 #responsive-medicine {
-  width: 100%;
+  width: fit-content;
   color: rgba(4, 80, 161, 1);
   text-align: left;
-  font-size: 48px;
+  font-size: 45px;
   line-height: 133%;
   font-family: Inter, sans-serif;
   font-weight: 500;
-  letter-spacing: -0.91px;
+  letter-spacing: -2px;
   margin-left: 10px;
 }

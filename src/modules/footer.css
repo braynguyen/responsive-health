@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
+.Footer {
+    background-color: #BDE3FF;
+}
+
+
 .title {
     align-items: center;
     flex-direction: column;
     display: flex;
     background-color: #BDE3FF;
     color: #193669;
-    padding: 20px;
-    font-size: 25px;
+    padding-top: 20px;
+    font-size: 35px;
     font-weight: 500;
 }
 
@@ -19,7 +24,7 @@
     border-radius: 10px;
     background-color: #193669;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
     min-width: 170px;
 }
 
@@ -37,10 +42,12 @@
 .location-name {
     margin-bottom: 5px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .phone-number {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #FFFFFF;
 }

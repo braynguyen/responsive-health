@@ -6,6 +6,12 @@ form {
     color: #193669;
 }
 
+.input-titles {
+    color: #193669;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 button {
     margin: 10px;
 }

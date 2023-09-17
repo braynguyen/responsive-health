@@ -1,25 +1,28 @@
-/* Group 2218 */
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 
-
-p {
-  margin: 0;
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
-.group-2218 {
+.row {
   background-color: #193669;
-  padding: 33px 219px 168px 210px;
-  box-sizing: border-box;
 }
-.group-285 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.header {
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.InfoHeader {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,15 +33,24 @@ p {
   font-weight: 500;
   text-align: center;
   letter-spacing: -0.88px;
+  margin-top: 0px;
+  padding-top: 10px;
 }
 
-.subheaders {
+.Sub-Headers {
   display: flex;
-  flex-direction: row;
-  width: fit-content;
-  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(30, 30, 30, 1);
+  font-size: 36px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1.01px;
+  margin-top: 0px;
 }
-.responsive-medicine {
+/* .responsive-medicine {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,14 +74,12 @@ p {
   font-weight: 500;
   text-align: center;
   letter-spacing: -1.01px;
-}
+} */
 
 .group-824 {
   display: flex;
   flex-direction: row;
   width: fit-content;
-  
-  ;
 }
 
 .group-397 {
